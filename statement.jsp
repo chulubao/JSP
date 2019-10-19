@@ -30,5 +30,17 @@ public  String operation(String  s)
 
 <%-- 注释:<%= 表达式  %>  --%>
 <%= operation("hello world!") %>
+
+<br>
+<% 
+int a=100;
+float b=3.14f;
+String s="Hi";
+%>
+<%=a%>
+<br>
+<%=b%>
+<br>
+<%=s%>
 </body>
 </html>
